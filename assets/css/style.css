@@ -1,0 +1,91 @@
+:root{
+    --img1: url(https://images.unsplash.com/photo-1654920139911-b529a68903c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    --img2: url(https://images.unsplash.com/photo-1654541245278-392677ee68ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80);
+    --img3: url(https://images.unsplash.com/photo-1654964150054-2686fe33c993?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80);
+    --img4: url(https://images.unsplash.com/photo-1652114067335-a0f7d8f9eeff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDR8RnpvM3p1T0hONnd8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+    --img5: url(https://images.unsplash.com/photo-1465101162946-4377e57745c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1478&q=80);
+    --img6: url(https://images.unsplash.com/photo-1654967865105-26959a3a6261?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80);
+    --img7: url(https://images.unsplash.com/photo-1444080748397-f442aa95c3e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80);
+    --img8: url(https://images.unsplash.com/photo-1653669741203-2b813964d5e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    --img9: url(https://images.unsplash.com/photo-1654493404885-5254978e9705?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80);
+    --img10: url(https://images.unsplash.com/photo-1652291389405-dabd38734355?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    --img11: url(https://images.unsplash.com/photo-1655129870529-f7cdc464a372?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80);
+    --img12: url(https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+}
+
+main{
+    box-sizing: border-box;
+    width: 1440px;
+    height: 1310px;
+    background-color: #E8E8E8;
+    padding: 43px 39px 48px 38px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 45px;
+    row-gap: 43px;
+}
+
+.frame{
+    border: 12px solid #BABABA;
+    height: 185px;
+    background-size: cover;
+}
+
+.doble{
+    grid-column: span 2;
+}
+
+.triple{
+    grid-column: span 3;
+}
+
+.item1{
+    background-image: var(--img1);
+}
+
+.item2{
+    background-image: var(--img2);
+}
+
+.item3{
+    background-image: var(--img3);
+}
+
+.item4{
+    background-image: var(--img4);
+}
+
+.item5{
+    background-image: var(--img5);
+}
+
+.item6{
+    background-image: var(--img6);
+}
+
+.item7{
+    background-image: var(--img7);
+}
+
+.item8{
+    background-image: var(--img8);
+}
+
+.item9{
+    background-image: var(--img9);
+}
+
+.item10{
+    background-image: var(--img10);
+}
+
+.item11{
+    background-image: var(--img11);
+}
+
+.item12{
+    background-image: var(--img12);
+}
